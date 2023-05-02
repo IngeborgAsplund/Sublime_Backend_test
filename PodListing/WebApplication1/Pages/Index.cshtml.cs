@@ -6,7 +6,7 @@ namespace WebApplication1.Pages
 {
     public class IndexModel : PageModel
     {
-        private Caller processor;
+        private BroadcastProcessing processor;
         private int P1Id = 132;
         private int P2Id = 163;
         private int P3Id = 164;
@@ -27,7 +27,7 @@ namespace WebApplication1.Pages
         }
         private async Task LoadProgramInformation() 
         {
-            processor = new Caller();
+            processor = new BroadcastProcessing();
 
             P1Humor = await processor.GetHumorPods(P1Id);
             P2Humor = await processor.GetHumorPods(P2Id);
