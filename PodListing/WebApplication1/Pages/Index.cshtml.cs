@@ -21,10 +21,11 @@ namespace WebApplication1.Pages
             
         }
 
-        public async void OnGet()
+        public async Task OnGet()
         {
             await LoadProgramInformation();
         }
+
         private async Task LoadProgramInformation() 
         {
             processor = new BroadcastProcessing();
