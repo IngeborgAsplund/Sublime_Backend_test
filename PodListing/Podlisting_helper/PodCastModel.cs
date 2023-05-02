@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Podlisting_helper
 {
-    internal class PodCastModel
+    public class PodCastModel
     {
         public string Title { get; set; }
         public DateTime Publishdateutc { get; set; }

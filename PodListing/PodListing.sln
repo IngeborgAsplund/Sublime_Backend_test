@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{0C11F2BD-D575-4DC6-8178-C4A14A2055FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Podlisting_helper", "Podlisting_helper\Podlisting_helper.csproj", "{EB8EDA59-5784-4D01-AB16-AB97EE37DDEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0C11F2BD-D575-4DC6-8178-C4A14A2055FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C11F2BD-D575-4DC6-8178-C4A14A2055FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C11F2BD-D575-4DC6-8178-C4A14A2055FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8EDA59-5784-4D01-AB16-AB97EE37DDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8EDA59-5784-4D01-AB16-AB97EE37DDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8EDA59-5784-4D01-AB16-AB97EE37DDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8EDA59-5784-4D01-AB16-AB97EE37DDEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

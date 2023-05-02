@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Podlisting_helper
 {
-    internal class BroadCastModel
+    public class BroadCastModel
     {
-        int Id { get; set; }
-        string Title { get; set; }
-        string Description { get; set; }
-        string Programimage { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public string Programimage { get; set; }
         public List<PodCastModel> Podcasts { get; set; } = new List<PodCastModel>();
     }
 }
